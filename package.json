@@ -1,7 +1,7 @@
 {
   "name": "gulp-2022",
   "version": "1.0.0",
-  "description": "Сборка Gulp-2022 от Жени Андриканича, автор канала 'Фрилансер по жизни'.",
+  "description": "Сборка Gulp-2022",
   "main": "gulpfile.js",
   "type": "module",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/StarkElessar/gulp-2022.git"
+    "url": "git+https://github.com/Aleksey999-source/gulp-2022.git"
   },
   "keywords": [
     "gulp",
@@ -26,15 +26,16 @@
   "author": "FLS",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/StarkElessar/gulp-2022/issues"
+    "url": "https://github.com/Aleksey999-source/gulp-2022/issues"
   },
-  "homepage": "https://github.com/StarkElessar/gulp-2022#readme",
+  "homepage": "https://github.com/Aleksey999-source/gulp-2022#readme",
   "devDependencies": {
     "browser-sync": "^2.27.7",
     "del": "^6.0.0",
     "fs": "^0.0.1-security",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
+    "gulp-avif": "^1.1.1",
     "gulp-clean-css": "^4.3.0",
     "gulp-file-include": "^2.3.0",
     "gulp-fonter": "^0.3.0",
@@ -59,11 +60,12 @@
     "sass": "^1.45.1",
     "swiper": "^7.3.4",
     "vinyl-ftp": "^0.6.1",
-    "webp-converter": "^2.2.3",
+    "webp-converter": "2.2.3",
     "webpack": "^5.65.0",
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
-    "reset-css": "^5.0.1"
+    "reset-css": "^5.0.1",
+    "zip": "^1.2.0"
   }
 }
