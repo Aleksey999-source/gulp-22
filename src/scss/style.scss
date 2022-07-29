@@ -1,6 +1,5 @@
 @import "_reset";
 @import '_fonts';
-@import '_vars';
 @import "_settings";
 @import "_header";
 @import "_main";
@@ -13,13 +12,7 @@
 }
 
 body {
-  background-color: #ce2727;
-  h1 {
-    font-family: Pushster;
-    font-weight: 400;
-    color: green;
-    font-size: 60px;
-  }
+
 }
 
 .img {
