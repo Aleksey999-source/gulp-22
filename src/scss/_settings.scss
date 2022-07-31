@@ -13,6 +13,24 @@ $c: #FFFFFF; // Основной цвет
 $bc: #FFFFFF; // цвет текста кнопки
 $bbc: #1749B3; // цвет фона кнопки
 
+//Функции-----------------------------------------------------------------------------------------------------------------------------
+
+//To %
+@function prc($pxOne, $pxTwo) {
+   $result: math.div($pxOne, $pxTwo) * 100%;
+   @return $result;
+}
+//To REM
+@function rem($px) {
+   $result: math.div($px, 16) + rem;
+   @return $result;
+}
+//To EM
+@function em($px) {
+   $result: math.div($px, 16) + em;
+   @return $result;
+}
+
 //Миксины------------------------------------------------------------------------------------------------------------------------------
 @mixin tplbutton ($bc, $bbc){
    display: flex;
